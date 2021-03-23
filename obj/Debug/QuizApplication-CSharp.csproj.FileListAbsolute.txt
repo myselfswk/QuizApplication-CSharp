@@ -1,0 +1,11 @@
+F:\VPL Assignments\QuizApplication-CSharp\bin\Debug\QuizApplication-CSharp.exe.config
+F:\VPL Assignments\QuizApplication-CSharp\bin\Debug\QuizApplication-CSharp.exe
+F:\VPL Assignments\QuizApplication-CSharp\bin\Debug\QuizApplication-CSharp.pdb
+F:\VPL Assignments\QuizApplication-CSharp\obj\Debug\QuizApplication-CSharp.csprojAssemblyReference.cache
+F:\VPL Assignments\QuizApplication-CSharp\obj\Debug\QuizApplication_CSharp.Form1.resources
+F:\VPL Assignments\QuizApplication-CSharp\obj\Debug\QuizApplication_CSharp.Properties.Resources.resources
+F:\VPL Assignments\QuizApplication-CSharp\obj\Debug\QuizApplication-CSharp.csproj.GenerateResource.cache
+F:\VPL Assignments\QuizApplication-CSharp\obj\Debug\QuizApplication-CSharp.csproj.CoreCompileInputs.cache
+F:\VPL Assignments\QuizApplication-CSharp\obj\Debug\QuizApplication-CSharp.exe
+F:\VPL Assignments\QuizApplication-CSharp\obj\Debug\QuizApplication-CSharp.pdb
+F:\VPL Assignments\QuizApplication-CSharp\obj\Debug\QuizApplication_CSharp.Quiz.resources
