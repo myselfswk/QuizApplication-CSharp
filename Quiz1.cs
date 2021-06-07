@@ -10,17 +10,17 @@ using System.Windows.Forms;
 
 namespace QuizApplication_CSharp
 {
-    public partial class Form1 : Form
+    public partial class Quiz1 : Form
     {
-        public Form1()
+        public Quiz1()
         {
             InitializeComponent();
+            label1.Text = Quiz.points.ToString();
+
         }
 
-        private void btnStart_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-            Quiz quiz = new Quiz();
-            quiz.Show();
         }
     }
 }

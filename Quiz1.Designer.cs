@@ -1,7 +1,7 @@
 ﻿
 namespace QuizApplication_CSharp
 {
-    partial class Form1
+    partial class Quiz1
     {
         /// <summary>
         /// Required designer variable.
@@ -30,38 +30,26 @@ namespace QuizApplication_CSharp
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.btnStart = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(82, 47);
+            this.label1.Location = new System.Drawing.Point(319, 253);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(354, 31);
+            this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Quiz Application Using C#";
+            this.label1.Text = "label1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // btnStart
-            // 
-            this.btnStart.Location = new System.Drawing.Point(186, 169);
-            this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(149, 65);
-            this.btnStart.TabIndex = 1;
-            this.btnStart.Text = "Get Start";
-            this.btnStart.UseVisualStyleBackColor = true;
-            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
-            // 
-            // Form1
+            // Quiz1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(540, 341);
-            this.Controls.Add(this.btnStart);
+            this.ClientSize = new System.Drawing.Size(954, 511);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Quiz Application";
+            this.Name = "Quiz1";
+            this.Text = "Quiz1";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -70,7 +58,5 @@ namespace QuizApplication_CSharp
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnStart;
     }
 }
-

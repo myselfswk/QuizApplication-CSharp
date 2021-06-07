@@ -42,7 +42,7 @@ namespace QuizApplication_CSharp
             // 
             this.lblQuiz.AutoSize = true;
             this.lblQuiz.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQuiz.Location = new System.Drawing.Point(200, 52);
+            this.lblQuiz.Location = new System.Drawing.Point(46, 45);
             this.lblQuiz.Name = "lblQuiz";
             this.lblQuiz.Size = new System.Drawing.Size(354, 31);
             this.lblQuiz.TabIndex = 1;
@@ -52,7 +52,7 @@ namespace QuizApplication_CSharp
             // 
             this.lblQuestion.AutoSize = true;
             this.lblQuestion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQuestion.Location = new System.Drawing.Point(206, 124);
+            this.lblQuestion.Location = new System.Drawing.Point(52, 117);
             this.lblQuestion.Name = "lblQuestion";
             this.lblQuestion.Size = new System.Drawing.Size(240, 24);
             this.lblQuestion.TabIndex = 2;
@@ -61,7 +61,7 @@ namespace QuizApplication_CSharp
             // rbA
             // 
             this.rbA.AutoSize = true;
-            this.rbA.Location = new System.Drawing.Point(261, 182);
+            this.rbA.Location = new System.Drawing.Point(107, 175);
             this.rbA.Name = "rbA";
             this.rbA.Size = new System.Drawing.Size(32, 17);
             this.rbA.TabIndex = 3;
@@ -72,7 +72,7 @@ namespace QuizApplication_CSharp
             // rbB
             // 
             this.rbB.AutoSize = true;
-            this.rbB.Location = new System.Drawing.Point(435, 182);
+            this.rbB.Location = new System.Drawing.Point(281, 175);
             this.rbB.Name = "rbB";
             this.rbB.Size = new System.Drawing.Size(32, 17);
             this.rbB.TabIndex = 3;
@@ -83,7 +83,7 @@ namespace QuizApplication_CSharp
             // rbC
             // 
             this.rbC.AutoSize = true;
-            this.rbC.Location = new System.Drawing.Point(261, 241);
+            this.rbC.Location = new System.Drawing.Point(107, 234);
             this.rbC.Name = "rbC";
             this.rbC.Size = new System.Drawing.Size(32, 17);
             this.rbC.TabIndex = 3;
@@ -94,7 +94,7 @@ namespace QuizApplication_CSharp
             // rbD
             // 
             this.rbD.AutoSize = true;
-            this.rbD.Location = new System.Drawing.Point(435, 241);
+            this.rbD.Location = new System.Drawing.Point(281, 234);
             this.rbD.Name = "rbD";
             this.rbD.Size = new System.Drawing.Size(33, 17);
             this.rbD.TabIndex = 3;
@@ -104,18 +104,19 @@ namespace QuizApplication_CSharp
             // 
             // btnNext
             // 
-            this.btnNext.Location = new System.Drawing.Point(435, 339);
+            this.btnNext.Location = new System.Drawing.Point(281, 332);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(119, 53);
             this.btnNext.TabIndex = 4;
             this.btnNext.Text = "Next";
             this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
             // Quiz
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(770, 485);
+            this.ClientSize = new System.Drawing.Size(954, 511);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.rbD);
             this.Controls.Add(this.rbC);
@@ -124,7 +125,7 @@ namespace QuizApplication_CSharp
             this.Controls.Add(this.lblQuestion);
             this.Controls.Add(this.lblQuiz);
             this.Name = "Quiz";
-            this.Text = "Quiz";
+            this.Text = "C# Quiz Application";
             this.ResumeLayout(false);
             this.PerformLayout();
 
